@@ -1,0 +1,27 @@
+{
+  "hosting": [
+    {
+      "public": "dist/angular-getting-started",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    },
+    {
+      "target": "angular-getting-started",
+      "public": "dist/angular-getting-started",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

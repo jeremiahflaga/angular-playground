@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "angular-getting-started-bcfac"
+  },
+  "targets": {
+    "angular-getting-started-bcfac": {
+      "hosting": {
+        "angular-getting-started": [
+          "angular-getting-started-bcfac"
+        ]
+      }
+    }
+  }
+}
